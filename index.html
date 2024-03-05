@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset = "UTF-8">
+       <title>Form</title>
+       <style>
+        div{
+            padding:5px;
+            font-size: small;
+        }
+       </style>
+    </head> 
+    <body>
+        <h1>Student Registration Form</h1>
+        <form action = "backend.php">
+            <div>
+                <label for="name">Name :</label> 
+                <input type="text" name="Studen's name" id="name">
+            </div>
+            <div>
+                <label for="roll number">Roll number : </label> 
+                <input type="text" name="Studen's roll number" id="roll number">
+            </div>
+            <div>
+                <label for="email">Email  :</label> 
+                 <input type="email" name="Studen's email id" id="email">
+            </div>
+            <div>
+                <label for="password">Password  :</label> 
+                 <input type="password" name="Studen's email id" id="password">
+            </div>
+            <div>
+                <label for="number">Mobile Number  :</label> 
+                 <input type="number" name="Studen's mobile number" id="number">
+            </div>
+            <div>
+                <label for="year">B.Tech year  :</label>  
+                <select name="surrently studying year" id="year">
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                    <option value="4th">4th</option>
+                </select>
+            </div>
+            <div>
+                <label for="branch">Branch  :</label>  
+                <select name="surrently studying year" id="branch">
+                    <option value="1st">Computer Science & Allied Branches</option>
+                    <option value="2nd">Electical and Electornics Engineering</option>
+                    <option value="3rd">Mechanical Engineering</option>
+                    <option value="4th">Civil Engineering</option>
+                </select>
+            </div>
+            <div>
+                <label for="gender">Gender :</label> 
+                  Male<input type="radio" name="Studen's email id" id="gender">
+                  Female<input type="radio" name="Studen's email id" id="gender">
+                  Other<input type="radio" name="Studen's email id" id="gender">
+            </div>
+            <div>
+                <label for="domain">Interested Domain :</label> 
+                 Web development<input type="checkbox" name="" id="1">
+                 Machine Learning<input type="checkbox" name="" id="2">
+                 Data Analytics<input type="checkbox" name="" id="3">
+                 Robotics<input type="checkbox" name="" id="4">
+            </div>
+            <div>
+                <label for="textbox">Any Queries :</label>
+                <textarea name="queries" rows="5" cols="10"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="1"> By clicking on this check box I agree that 
+                all the information provided above is viable of me.
+            </div>
+            <div>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body> 
+
+</html>
